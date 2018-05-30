@@ -7,11 +7,13 @@ its not a set of rules, designed to secure your home or office-network or to set
 think of "lamp"-servers.
 
 #### iptables-boilerplate is tested on
-* Debian 7.0 / Wheezy
-* Debian 8.0 / Jessie
-* Debian 9.0 / Stretch
+* Debian 6.0 / Squeeze (oldstable)
+* Debian 7.0 / Wheezy (stable)
+* Debian 8.0 / Jessie (testing)
+* Ubuntu 10.04 LTS / Lucid
+* Ubuntu 12.04 LTS / Precise
+* Ubuntu 13.10 / Raring
 * Ubuntu 14.04 LTS / Trusty
-* Ubuntu 16.04 LTS / Xenial
 
 we will support every LTS (Ubuntu) and stable (Debian) version.
 
@@ -36,11 +38,11 @@ And follow these steps to install:
 
     git clone git://github.com/bmaeser/iptables-boilerplate.git
     cd iptables-boilerplate
-    sudo make
+    make
 
 To uninstall run:
 
-    sudo make uninstall
+    make uninstall
 
 ### On other systems
 
@@ -157,7 +159,7 @@ thx
 
 ## Licence
 The MIT License (MIT)
-Copyright © Bernhard Mäser(http://bmaeser.io) and contributors
+Copyright © Bernhard Mäser, http://bmaeser.io
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the “Software”), to deal
@@ -176,3 +178,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bmaeser/iptables-boilerplate/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+

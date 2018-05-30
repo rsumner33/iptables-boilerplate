@@ -12,8 +12,8 @@
 ## see: https://github.com/bmaeser/iptables-boilerplate/issues/1#issuecomment-8935056
 
 
-## we allow at max 8 new connections per second
-CONNECTIONS=8
+## we allow at max 2 new connections per second
+CONNECTIONS=2
 SECONDS=1
 
 
